@@ -25,14 +25,14 @@ int main(void)
 			while (q < 58)
 			{
 				putchar(i);
-																						putchar(e);
-																						putchar(q);
-																						if (i < 55 || e < 56 || q < 57)	
-																						{
-																							putchar(44);
-																							putchar(32);
-																						}
-																						q++;
+				putchar(e);
+				putchar(q);
+				if (i < 55 || e < 56 || q < 57)	
+				{
+					putchar(44);
+					putchar(32);
+				}
+				q++;
 			}
 			e++;
 		}
