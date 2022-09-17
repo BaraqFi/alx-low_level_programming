@@ -15,17 +15,15 @@ int main(void)
 	while (inc++ < number / 2)
 	{
 	if (number % inc == 0)
-	{
-		number /= 2;
-		continue;
-	}
-
+		{
+			number /= 2;
+			continue;
+		}
 	for (inc = 3; inc < number / 2; inc += 2)
-
-	{
-		if (number % inc == 0)
-			number /= inc;	
-	}
+		{
+			if (number % inc == 0)
+			number /= inc;
+		}
 	}
 	printf("%ld\n", number);
 	return (0);
